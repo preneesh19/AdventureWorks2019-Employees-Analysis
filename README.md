@@ -20,7 +20,9 @@ Before beginning my analysis, I had to clean the data so that I would have the r
 
 I had used INTO in my previous project as well and I wanted to improve on that by considering query performance and storage space. I used CREATE VIEW to create a virtual table so that it would not take as much storage as a physical table. I had named my first virutal table as [Employees Hired] which contains the employees hired each year, grouped by gender. This was done using CASE, SUM, and COUNT to isolate each year and finding the count for each year. I had also found the count of employees hired each year.
 
-The next virtual table I created documented the Employees that are active and employees that are no longer employed. The employees that were still working there were NULL values and so I replaced it with 'Employed' using CASE. I had found there were 290 active employees. 
+The next virtual table I created documented the Employees that are active. The employees that were working there were NULL values and so I replaced it with 'Employed' using CASE. I had found there were 290 active employees. 
+
+On my next virtual table, I had joined four tables together to get good practice with joining tables. I used MAX in order to get the max hourly pay for each employee since six employees had gone through three different hourly rates which indicates a promotion. I had also filtered it by NULL so that only the active employees will be in the table which is 290. I will also use this virtual table that is named [Employee Pay] to do further analysis. 
 
 
 
