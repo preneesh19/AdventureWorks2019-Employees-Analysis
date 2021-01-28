@@ -35,6 +35,7 @@ After I had finished writing the queries, it was time to move on to Power BI. I 
 Using the card under visualizations, I showed the total employees, female average pay, and the male average pay at the top. Then using the donut chart, I showed the amount of employees that fall under each pay range. Moving on using the funnel, I showed the amount of employees that were hired each year. 2008 and 2009 had the most hires and since 2009 it has rapidly decreased in hiring new employees. I showed the average pay by department as a table because there is a lot of data there and using a visualization for this data would have taken too much space on the dashboard. At the bottom of the dashboard, I showed the employee count by gender, then the total pay by gender, which I did not find in SQL. This was found by dragging the rate column to values and selecting sum, then moving the gender column under axis. Finally, the total vacation and sick leave hours by gender is shown. Unsurprisingly since there are much more males than females, the males have much more vacation and sick leave hours. I had to move the legend to the bottom so that the data labels would be visible with the included title. 
 
 **Conclusion**
+
 This was a fun and a more challenging project than my previous one
 
 **Source**
