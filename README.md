@@ -36,7 +36,7 @@ Using the card under visualizations, I showed the total employees, female averag
 
 **Conclusion**
 
-This was a fun and a more challenging project than my previous one
+This was a fun and a more challenging project than my previous one. There was certainly some interesting insights that were found from analyzing the database. Recommendations for the company include, hiring more female workers and increasing the hourly rate, especially for Shipping and Receiving, Facilities and Maintenance, Production, and Document Control which are under $15.  
 
 **Source**
 
